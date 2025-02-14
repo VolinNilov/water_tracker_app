@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://psv4.userapi.com/s/v1/d/hQodqEWm7_huFTQUhbgZvgba9Grtt-Kq5lox7cdbWkl66Pu6siUSO57Uz-cl5iMrNaDQucl6gHslmykwv4eOJNu0Uo0amnHxZD44hLsQRUFVTTxMy3thBQ/icon.png" alt="LOGO">
+</div>
+
 # Water Calculation APP
 
 Код представляет собой простое приложение для отслеживания количества выпитой воды, написанное с использованием библиотеки tkinter для создания графического интерфейса и модуля logging для логирования действий.
