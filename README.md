@@ -1,5 +1,5 @@
 <div align="center">
-<image src="https://psv4.userapi.com/s/v1/d/hQodqEWm7_huFTQUhbgZvgba9Grtt-Kq5lox7cdbWkl66 Pu6siUSO57Uz-cl5iMrNaDQucl6gHslmykwv4eOJNu0Uo0amnHxZD44hLsQRUFVTTxMy3thBQ/icon.png" alt="LOGO">
+<image src="https://psv4.userapi.com/s/v1/d/hQodqEWm7_huFTQUhbgZvgba9Grtt-Kq5lox7cdbWkl66Pu6siUSO57Uz-cl5iMrNaDQucl6gHslmykwv4eOJNu0Uo0amnHxZD44hLsQRUFVTTxMy3thBQ/icon.png" alt="LOGO">
 </div>
 
 # Water Calculator Application
