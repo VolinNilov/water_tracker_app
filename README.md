@@ -1,67 +1,70 @@
 <div align="center">
-  <img src="https://psv4.userapi.com/s/v1/d/hQodqEWm7_huFTQUhbgZvgba9Grtt-Kq5lox7cdbWkl66Pu6siUSO57Uz-cl5iMrNaDQucl6gHslmykwv4eOJNu0Uo0amnHxZD44hLsQRUFVTTxMy3thBQ/icon.png" alt="LOGO">
+<image src="https://psv4.userapi.com/s/v1/d/hQodqEWm7_huFTQUhbgZvgba9Grtt-Kq5lox7cdbWkl66 Pu6siUSO57Uz-cl5iMrNaDQucl6gHslmykwv4eOJNu0Uo0amnHxZD44hLsQRUFVTTxMy3thBQ/icon.png" alt="LOGO">
 </div>
 
-# Water Calculation APP
+# Water Calculator Application
 
-Код представляет собой простое приложение для отслеживания количества выпитой воды, написанное с использованием библиотеки tkinter для создания графического интерфейса и модуля logging для логирования действий.
+The code is a simple application for determining the amount of water drunk, written using the tkinter library to create a graphical interface and an action logging module to log actions.
 
-## Основные компоненты кода:
-1. Логирование:
+## Main components of the code:
+1. Logging:
 
-- Настроено с использованием модуля logging. Логи записываются в файл water_tracker.log с указанием времени и сообщения.
+- Configured using the logging module. Results logs in the Water_tracker.log file with time and messages.
 
-- Функция log_status записывает текущее количество бутылок и выпитый объём воды.
+- the log_status function records the number of current bottles and the volume of water drunk.
 
-- Функция log_print записывает произвольное сообщение в лог.
+- the log_print function writes the final message to the log.
 
-2. Класс WaterTrackerApp:
+2. WaterTrackerApp class:
 
-- Это основной класс приложения, который управляет интерфейсом и логикой работы.
+- This is the main class of the application, which controls the interface and the logic of operation.
 
-- Инициализация (__init__):
+- Initialization (__init__):
 
-    - Создаётся главное окно приложения с заголовком "Water Tracker".
+- The main application window with the title "Water Tracker" is created.
 
-    - Пытается загрузить иконку для окна из файла icon.png. Если иконка не найдена, в лог записывается предупреждение.
+- Attempts to load an icon for the window from the icon.png file. If the icon is not found, enter a warning in the log.
 
-    - Инициализируются переменные для хранения объёма бутылки, количества бутылок и общего выпитого объёма воды.
+- Variables for storing the volume of bottles, the number of bottles, and the total volume of water drunk are initialized.
 
-3. Создание интерфейса (create_widgets):
+3. Creating the interface (create_widgets):
 
-- Создаются элементы интерфейса: поле для ввода объёма бутылки, кнопки для увеличения и уменьшения количества бутылок, метки для отображения текущего количества бутылок и выпитого объёма воды.
+- Interface elements are created: a field for entering the volume of bottles, buttons for increasing and adjusting the number of bottles, labels for displaying the current number of bottles and the volume of water drunk.
 
-- Методы increase_count и decrease_count:
+- Increment_count and Decrement_count methods:
 
-- Увеличивают или уменьшают количество бутылок и обновляют интерфейс.
+- Increase or decrease the number of bottles and update the interface.
 
-- Метод update_display:
+- Update_display method:
 
-- Обновляет метки с количеством бутылок и выпитым объёмом воды.
+- Updates the labels with the proportion of bottles and the amount of water drunk.
 
-- Логирует текущее состояние.
+- Logs the current state.
 
-4. Запуск приложения:
+4. Launching the application:
 
-- В блоке if __name__ == "__main__": создаётся главное окно приложения, вызывается функция log_print для записи пустой строки в лог (для разделения записей), и запускается главный цикл обработки событий mainloop.
+- In the if __name__ == "__main__": block, the main application window is created, the log_print function appears to write empty lines to the log (to separate the records), and the main event processing loop mainloop is launched.
 
-## Как работает приложение:
-- Пользователь может ввести объём одной бутылки (по умолчанию 0.5 литра).
+## How the application works:
+- The user can specify the volume of one bottle (by default, 0.5 liters).
 
-- С помощью кнопок "+" и "-" можно увеличивать или уменьшать количество выпитых бутылок.
+- Using the "+" and "-" buttons, you can specify or decrease the number of bottles drunk.
 
-- Приложение автоматически рассчитывает общий объём выпитой воды и отображает его на экране.
+- The application automatically calculates the total volume of water drunk and displays it on the screen.
 
-- Все изменения логируются в файл water_tracker.log.
+- All changes are logged in the Water_tracker.log file.
 
-## Пример использования:
-- Пользователь вводит объём бутылки (например, 0.5 литра).
+## Example of use:
+- The user enters the volume of the bottle (for example, 0.5 liters).
 
-- Нажимает кнопку "+" несколько раз, чтобы увеличить количество выпитых бутылок.
+- Press the "+" button several times to increase the number of bottles drunk.
 
-- Приложение отображает текущее количество бутылок и общий объём выпитой воды.
+- The application displays the current number of bottles and the total volume of water drunk.
 
-- В лог записываются все изменения.
+- All changes in the registration.
 
+This simple application can be useful for those who want to monitor the supply of water drunk during the day.
 
-Это простое приложение может быть полезно для тех, кто хочет следить за количеством выпитой воды в течение дня.
+## TODO-LIST
+1. Create an .exe file for the project.
+2. Connect the integration with the Telegram bot.
